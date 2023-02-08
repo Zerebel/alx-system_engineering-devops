@@ -1,4 +1,4 @@
-## <center> **Shell, Basics** </center>
+## <p style="text-align:center;"> **Shell, Basics** </center>
 | Script | Description |
 | ------ | ------ |
 | [0️⃣-current_working_directory](0-current_working_directory) |Prints the absolute path name of the current working directory. |
