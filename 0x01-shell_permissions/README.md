@@ -9,10 +9,7 @@
 |[5️⃣-execute](5-execute) | Adds execute permission to the owner of the file hello. |
 |[6️⃣-multiple_permissions](6-multiple_permissions)|Adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.|
 |[7️⃣️-everybody](7-everybody)|Adds execution permission to the owner, the group owner and the other users, to the file hello|
-|[8️⃣-James_Bond](8-James_Bond)|a script that sets the permission to the file hello as follows:
-Owner: no permission at all
-Group: no permission at all
-Other users: all the permissions|
+|[8️⃣-James_Bond](8-James_Bond)|a script that sets the permission to the file hello as follows: Owner: no permission at all, Group: no permission at all, Other users: all the permissions|
 |[9️⃣-John_Doe](9-John_Doe)|a script that sets the mode of the file hello to: -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello|
 |[🔟-mirror_permissions](10-mirror_permissions)|A script that sets the mode of the file hello the same as olleh’s mode.|
 |[11️-directories_permissions](11-directories_permissions)|A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files not changed.|
