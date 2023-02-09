@@ -1,4 +1,4 @@
-## <p style="text-align:center;"> **Shell, Basics** </p> ##
+## <p style="text-align:center;"> **Shell Permissions** </p> ##
 | Script | Description |
 | ------ | ------ |
 | [0️⃣-iam_betty](0-iam_betty) |Creates a script that switches the current user to the user betty. |
