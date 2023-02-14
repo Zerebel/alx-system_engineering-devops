@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "[0-9]*" ! -executable -print0 | xargs -0 chmod u+x
