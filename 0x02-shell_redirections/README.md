@@ -1,33 +1,49 @@
-## <p style="text-align:center;"> **Shell Redirections** </p> ##
-| Script | Description |
-| ------ | ------ |
-| [0️⃣-hello_world](0-hello_world) | A script that prints “Hello, World”, followed by a new line to the standard output. |
-| [1️⃣-confused_smiley](1-confused_smiley) | A script that displays a confused smiley "(Ôo)'.|
-| [2️⃣-hellofile](2-hellofile) | Display the content of the /etc/passwd file. |
-| [3️⃣-3-twofiles](3-twofiles) | Display the content of /etc/passwd and /etc/hosts |
-| [4️⃣-lastlines](4-lastlines) | Display the last 10 lines of /etc/passwd |
-|[5️⃣-firstlines](5-firstlines) | Display the first 10 lines of /etc/passwd |
-|[6️⃣-third_line](6-third_line)|A script that displays the third line of the file iacta.|
-|[7️⃣️-file](7-file)|A shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.|
-|[8️⃣-cwd_state](8-cwd_state)|A script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.|
-|[9️⃣-duplicate_last_line](9-duplicate_last_line)|A script that duplicates the last line of the file iacta|
-|[🔟-no_more_js](10-no_more_js)| A script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.|
-|[11-directories](11-directories)|A script that counts the number of directories and sub-directories in the current directory.|
-|[12-newest_files](12-newest_files)|A script that displays the 10 newest files in the current directory.|
-|[13-unique](13-unique)|A script that takes a list of words as input and prints only words that appear exactly once.|
-|[14-findthatword](14-findthatword)|Display lines containing the pattern “root” from the file /etc/passwd|
-|[15-countthatword](15-countthatword) | Display the number of lines that contain the pattern “bin” in the file /etc/passwd|
-|[16-whatsnext](16-whatsnext)|Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.|
-|[17-hidethisword](17-hidethisword)|Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.|
-|[18-letteronly](18-letteronly)|Display all lines of the file /etc/ssh/sshd_config starting with a letter.|
-|[19-AZ](19-AZ)|Replace all characters A and c from input to Z and e respectively.|
-|[20-hiago](20-hiago)|A script that removes all letters c and C from input.|
-|[21-reverse](21-reverse)|Write a script that reverse its input.|
-|[22-users_and_homes](22-users_and_homes)|Write a script that displays all users and their home directories, sorted by users.|
-|[100-empty_casks](100-empty_casks)|A command that finds all empty files and directories in the current directory and all sub-directories.|
-|[101-gifs](101-gifs)|A script that lists all the files with a .gif extension in the current directory and all its sub-directories.|
-|[102-acrostic](102-acrostic)|A script that decodes acrostics that use the first letter of each line.|
-|[103-the_biggest_fan](103-the_biggest_fan)|A script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.|
+<h1 align="center">📁 Shell Redirections </h1>
 
+This repository contains a collection of shell commands and scripts that can help you sharpen your shell scripting skills.
+
+| Filename | Description |
+| -------- | ----------- |
+| [0-hello_world](./0-hello_world) | Prints 'Hello, World' to the console. |
+| [100-empty_casks](./100-empty_casks) | Finds and lists all empty files in the current directory. |
+| [101-gifs](./101-gifs) | Lists all .gif files in the current directory and sorts them alphabetically. |
+| [102-acrostic](./102-acrostic) | Extracts the first character of each line of text and concatenates them to form a word. |
+| [103-the_biggest_fan](./103-the_biggest_fan) | Extracts and lists the top 10 most frequently occurring names in a file. |
+| [10-no_more_js](./10-no_more_js) | Deletes all .js files in the current directory and its subdirectories. |
+| [11-directories](./11-directories) | Counts and prints the number of directories in the current directory. |
+| [12-newest_files](./12-newest_files) | Lists the 10 most recently modified files in the current directory. |
+| [13-unique](./13-unique) | Sorts and prints unique lines from a file. |
+| [14-findthatword](./14-findthatword) | Searches and prints lines in a file containing a specific word. |
+| [15-countthatword](./15-countthatword) | Counts and prints the number of lines in a file containing a specific word. |
+| [16-whatsnext](./16-whatsnext) | Searches and prints a specific number of lines after a line containing a specific word. |
+| [17-hidethisword](./17-hidethisword) | Searches and prints lines in a file not containing a specific word. |
+| [18-letteronly](./18-letteronly) | Searches and prints lines in a file that start with a letter. |
+| [19-AZ](./19-AZ) | Replaces all occurrences of 'a' and 'c' with 'z' and 'e', respectively. |
+| [1-confused_smiley](./1-confused_smiley) | Prints a confused smiley to the console. |
+| [20-hiago](./20-hiago) | Removes all occurrences of the letters 'c' and 'C' from a string. |
+| [21-reverse](./21-reverse) | Reverses the lines in a file. |
+| [22-users_and_homes](./22-users_and_homes) | Extracts and prints the usernames and home directories of all users in the system. |
+| [2-hellofile](./2-hellofile) | Prints the contents of the /etc/passwd file to the console. |
+| [3-twofiles](./3-twofiles) | Concatenates and prints the contents of the /etc/passwd and /etc/hosts files to the console. |
+| [4-lastlines](./4-lastlines) | Prints the last 10 lines of the /etc/passwd file to the console. |
+| [5-firstlines](./5-firstlines) | Prints the first 10 lines of the /etc/passwd file to the console. |
+| [6-third_line](./6-third_line) | Prints the third line of the iacta file to the console. |
+| [7-file](./7-file) | Creates a file named "\*\'\"Best School\"\’\\\*\$\?\*\*\*\*\*:" with "Best School" as its content |
+| [8-cwd_state](./8-cwd_state) | Saves the result of "ls -la" command to a file named "ls_cwd_content" |
+| [9-duplicate_last_line](./9-duplicate_last_line) | Appends the last line of "iacta" file to the end of the file |
+
+## Usage
+
+Each script has a brief description and a link to the corresponding file. To use a script, simply download or copy the file, make it executable using `chmod +x <filename>`, and then run it using `./<filename>`.
+
+Note that some scripts may require additional command line arguments or input files. Refer to the script's description for more information.
+
+## Contributing
+
+Pull requests are welcome! If you have a script that you think would be useful to others, feel free to add it to the collection.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
 
 
