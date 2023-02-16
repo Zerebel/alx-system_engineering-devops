@@ -1,4 +1,4 @@
-<h1 style="text-align='center'"> alx-system_engineering-devops </h1>
+<h1 align="center"> alx-system_engineering-devops </h1>
 
 My journey of learning shell scripting and other DevOps concepts in the Alx program.
 
